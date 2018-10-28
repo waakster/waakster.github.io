@@ -1,0 +1,17 @@
+<div class="card-header no-print">
+  <nav>
+
+      {% if page.layout == "category" %}
+<!--       <a href="{{site.baseurl}}/" class="usa-button usa-button-secondary">
+        <img src="{{site.baseurl}}/images/cards.png" alt="" width="22">
+        See all cards
+      </a> -->
+      {% else %}
+      <a href="{{site.baseurl}}/{{ page.category | downcase}}" class="usa-button usa-button-secondary" onclick="ga('send', 'event', 'Navigate', 'Click method category link','Navigate to method categoy page');">
+        <img src="{{site.baseurl}}/images/cards.png" alt="" width="22">
+        Bekijk alle {{ page.category | downcase }}
+          </a>
+      {% endif %}
+
+  </nav>
+</div>

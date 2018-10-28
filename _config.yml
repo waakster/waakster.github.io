@@ -1,0 +1,43 @@
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+name: Methods
+exclude:
+- CONTRIBUTING.md
+- Gemfile
+- Gemfile.lock
+- LICENSE.md
+- README.md
+- go
+- vendor
+
+permalink: pretty
+highlighter: rouge
+
+sass:
+  style: compressed
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  methods:
+    output: true
+    permalink: /:path/
+site:
+  title: Waakster
+
+description: Waken is het geven van ruimte
+
+repos:
+- name: waakster.github.io
+  description: Main repository
+  url: https://github.com/waakster/waakster.github.io
+
+plugins:
+  - jekyll-last-modified-at
+  - jemoji
+  - jekyll-mentions
+  - jekyll-redirect-from
+
+google_analytics_ua: UA-48605964-19

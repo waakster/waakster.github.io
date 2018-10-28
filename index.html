@@ -1,10 +1,61 @@
-<html lang="nl">
-  <head>
-    <meta charset="utf-8">
-    <title>waakster.nl</title>
-  </head>
-  <body>
-    <h1>Welkom bij waakster.nl</h1>
-    <p>Website werk in proces...</p>
+---
+permalink: /
+title: Waken is het geven van ruimte
+---
+<!DOCTYPE html>
+<html lang='en'>
+  {% include head.html %}
+  <body class="layout--default layout--{{ page.title | slugify }}">
+    {% include category-setup.html %}
+    {% include header.html %}
+    <main id="main" role="main">
+      <section class="category category--intro usa-section no-print" id="intro">
+        <article>
+          <div class="method--panel method--panel--front">
+            <div class="intro-card-header usa-grid">
+              <p class="usa-font-lead no-print">Waken is het geven van ruimte</p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="category category--discover usa-section" id="discover">
+        <div class="usa-grid">
+          <header class="category--header">
+              <h1 class="category--title">Vanuit rust kan ruimte ontstaan</h1>
+              <p class="category--subtitle">Op uiteenlopende wijze streef ik naar ruimte voor ieders proces.</p>
+          </header>
+
+            <article class="method" itemscope itemtype="http://schema.org/Article">
+              <div class="method--panel method--panel--front">
+                <h1 class="method--title" itemprop="headline">
+                  Welkom bij waakster.nl
+                </h1>
+                  <h2>Wat doen we</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non turpis interdum, iaculis neque sed, ultricies nibh. Praesent scelerisque lacinia velit quis sodales. </p>
+                  <h2>Waarom</h2>
+                  <p>Vivamus eleifend lorem non arcu dignissim semper. Cras placerat id erat eu imperdiet. Mauris ornare enim ac urna posuere, vel placerat leo feugiat. </p>
+                <footer>
+                </footer>
+              </div>
+              <div class="method--panel method--panel--back">
+                <h2>Uitgangspunt en aannames</h2>
+
+                <p>De vergankelijkheid van ons fysieke lichaam zoals wij dat met ons menselijk bewustzijn zien wordt door een ieder individueel beleefd. </p>
+
+                <p>Ieder heeft recht op zijn/haar eigen kijk en grens. </p>
+
+                <p>Hoe ga ik om met mijn eigen grenzen en die van anderen? Het (h)er-kennen van grenzen geeft mij juist ruimte voor vele invalshoeken.</p>
+
+                <p>Ik sta mezelf toe zowel met mezelf als met alle betrokkenen in contact te blijven. Dit streven levert vaak een grensoverstijgend saamhorigheidsgevoel waarin plaats is voor verschillen. Zo kunnen de verschillen die ons tot mens maken ver-reikende & rijke bijdrage leveren voor een ieder. </p>
+
+                <p>Vanaf 1978 neig ik naar wat tegenwoordig “<a href="https://www.bodyofknowledgesociaalwerk.nl/pagina/presentiebenadering" target="_blank">presentiebenadering</a>” heet. Veertig jaar werkervaring maakt dat ik mij blijf onwikkelen en mijn werkwijze zich in geen model laat vatten. </p>
+                <p>Meer weten? <a href="/contact">Neem contact op</a></p>
+              </div>
+            </div>
+            </article>
+        </div>
+      </section>
+    </main>
+      {% include footer.html %}
   </body>
 </html>

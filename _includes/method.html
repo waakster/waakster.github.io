@@ -1,0 +1,32 @@
+{% assign this_method = include.method | default: page %}
+<span class="anchor" id="{{ this_method.title | slugify }}"></span>
+<article class="method" itemscope itemtype="http://schema.org/Article">
+  <div class="method--panel method--panel--front">
+    <h1 class="method--title" itemprop="headline">
+    	{% if page.layout == "category" %}
+    		<a href="{{ site.baseurl }}{{ method.url }}">
+    	{% endif %}
+      {% if this_method.title %}
+        {{ this_method.title }}
+      {% endif %}
+      {% if page.layout == "category" %}
+    		</a>
+    	{% endif %}
+    </h1>
+      <h2>Wat</h2>
+      <p>{{ this_method.what | smartify | liquify | markdownify }}</p>
+      {% if this_method.why %}
+      <h2>Waarom</h2>
+      <p>{{ this_method.why | smartify | liquify | markdownify }}</p>
+      {% endif %}
+    <footer>
+      <section class="method--section method--section--category">
+        <h2>Meer weten?</h2>
+        <p><a href="{{site.baseurl}}/contact">Contact opnemen</a></p>
+      </section>
+    </footer>
+  </div>
+  <div class="method--panel method--panel--back">
+    {{ this_method.content | smartify | liquify | markdownify }}
+  </div>
+</article>
