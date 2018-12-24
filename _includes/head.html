@@ -4,10 +4,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }} - Waakster{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-16x16.png" sizes="16x16" />
 
   <meta name="description" content="{% if page.description %}{{ page.description | truncate: 155 }}{% else %}{{ site.description }}{% endif %}">
+
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#9f00a7">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <meta name="msapplication-TileColor" content="#9f00a7">
+  <meta name="msapplication-config" content="/images/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Open Graph data -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
