@@ -1,0 +1,68 @@
+---
+permalink: /praktijk
+title: Praktijk informatie
+---
+<!DOCTYPE html>
+<html lang='en'>
+  {% include head.html %}
+  <body class="layout--default layout--{{ page.title | slugify }}">
+    {% include category-setup.html %}
+    {% include header.html %}
+    <main id="main" role="main">
+
+      <section class="category category--discover usa-section">
+        <div class="usa-grid">
+          <header class="category--header">
+              <h1 class="category--title">Praktijkinfo</h1>
+              <p class="category--subtitle">Hoe werkt het?</p>
+          </header>
+
+            <article class="method" itemscope itemtype="http://schema.org/Article">
+              <div class="method--panel method--panel--front">
+                <h1 class="method--title" itemprop="headline">Prijzen</h1>
+                <h2>Uurprijs</h2>
+                <p>Mijn uurprijs is 150 euro per uur ex. BTW. </p>
+                <h2>Strippenkaartmodel</h2>
+                <p>Ik werk met het strippenkaartmodel. Dit betekent dat we een aantal uren afspreken. U betaalt de strippenkaart vooraf. U kunt altijd uren bijkopen in overleg. </p>
+                <footer></footer>
+              </div>
+              <div class="method--panel method--panel--back">
+                <h2>Voorwaarden</h2>
+                <ul>
+                  <li>Een strippenkaart is altijd een jaar geldig.</li>
+                  <li>Na een jaar vervallen de niet gebruikte uren.</li>
+                </ul>
+              </div>
+            </div>
+            </article>
+        </div>
+      </section>
+
+      <section class="category category--discover usa-section">
+        <div class="usa-grid">
+            <article class="method" itemscope itemtype="http://schema.org/Article">
+              <div class="method--panel method--panel--front">
+                <h1 class="method--title" itemprop="headline">Privacy policy</h1>
+                <p>Wij doen er alles aan om uw privacy te waarborgen en gaan daarom zorgvuldig om met persoonsgegevens.</p>
+                <footer></footer>
+              </div>
+              <div class="method--panel method--panel--back">
+                <h2>Voorwaarden</h2>
+                <ol>
+                  <li>Uw persoonsgegevens verwerken in overeenstemming met het doel waarvoor deze zijn verstrekt, deze doelen en type persoonsgegevens zijn beschreven in dit Privacy policy;</li>
+                  <li>Verwerking van uw persoonsgegevens beperkt is tot enkel die gegevens welke minimaal nodig zijn voor de doeleinden waarvoor ze worden verwerkt;</li>
+                  <li>Vragen om uw uitdrukkelijke toestemming als wij deze nodig hebben voor de verwerking van uw persoonsgegevens;</li>
+                  <li>Passende technische en organisatorische maatregelen hebben genomen zodat de beveiliging van uw persoonsgegevens gewaarborgd is;</li>
+                  <li>Geen persoonsgegevens doorgeven aan andere partijen, tenzij dit nodig is voor uitvoering van de doeleinden waarvoor ze zijn verstrekt;</li>
+                  <li>Op de hoogte zijn van uw rechten omtrent uw persoonsgegevens, u hierop willen wijzen en deze respecteren.</li>
+                </ol>
+              </div>
+            </div>
+            </article>
+        </div>
+      </section>
+
+    </main>
+      {% include footer.html %}
+  </body>
+</html>

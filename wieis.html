@@ -1,0 +1,46 @@
+---
+permalink: /wie
+title: Wie is..?
+---
+<!DOCTYPE html>
+<html lang='en'>
+  {% include head.html %}
+  <body class="layout--default layout--{{ page.title | slugify }}">
+    {% include category-setup.html %}
+    {% include header.html %}
+    <main id="main" role="main">
+
+      <section class="category category--discover usa-section" id="discover">
+        <div class="usa-grid">
+          <header class="category--header">
+              <h1 class="category--title">Waken raakt en reikt ruimte aan</h1>
+              <p class="category--subtitle">Op uiteenlopende wijze streef ik naar ruimte voor ieders proces.</p>
+          </header>
+
+            <article class="method" itemscope itemtype="http://schema.org/Article">
+              <div class="method--panel method--panel--front">
+                <h1 class="method--title" itemprop="headline">
+                  Wie is..?
+                </h1>
+                <img src="https://place-hold.it/820x820&text=Foto%20Frans" width="410" alt="Frans van Ogtrop">
+                <h2>Frans van Ogtrop</h2>
+                <p>Achtergrond informatie.</p>
+
+                <h2>Samenwerking</h2>
+                <p>Iets over streven naar samenwerken.</p>
+
+                <footer></footer>
+              </div>
+              <div class="method--panel method--panel--back">
+                <h2>Werkwijze</h2>
+                <p>Vanaf 1978 neig ik naar wat tegenwoordig “<a href="https://www.bodyofknowledgesociaalwerk.nl/pagina/presentiebenadering" target="_blank">presentiebenadering</a>” heet. Veertig jaar werkervaring maakt dat ik mij blijf onwikkelen en mijn werkwijze zich in geen model laat vatten. </p>
+                <p><a href="{{site.baseurl}}/praktijkinfo">Meer praktijk informatie</a></p>
+              </div>
+            </div>
+            </article>
+        </div>
+      </section>
+    </main>
+      {% include footer.html %}
+  </body>
+</html>

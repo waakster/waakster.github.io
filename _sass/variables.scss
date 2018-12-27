@@ -18,15 +18,19 @@ $tiny-font-size: 1.2rem;
 
 $paragraph-line-height: 1.5;
 
+// https://www.color-hex.com/color-palette/13575
+$green-dark: #7a876f;
+$green-light: #c2cea7;
+
 $purple-dark: #68246A;
 $purple-light: #B78FB7;
 
 // Colors
-$color-blue: $purple-light;
+$color-blue: $green-light;
 $color-green: #58B84F;
 $color-gold: #F3CD32;
 $color-red: #E67E37;
-$color-blue-dark: $purple-dark; // 18F brand color $color-dark
+$color-blue-dark: $green-dark;
 $color-gray-darkest: #222;
 $color-gray-dark: #333;
 $color-gray: #ddd;

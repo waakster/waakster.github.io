@@ -266,3 +266,11 @@ button,
     }
   }
 }
+
+@media screen and (min-width: 600px) {
+	// uswds.css:4211
+	.usa-section {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+}
