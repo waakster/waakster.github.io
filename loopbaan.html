@@ -1,13 +1,125 @@
----
-permalink: /loopbaan
-title: Loopbaan
----
 <!DOCTYPE html>
-<html lang='en'>
-  {% include head.html %}
-  <body class="layout--default layout--{{ page.title | slugify }}">
-    {% include category-setup.html %}
-    {% include header.html %}
+<html lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Loopbaan - Waakster</title>
+
+  <meta name="description" content="Waken is het geven van ruimte">
+
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#9f00a7">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <meta name="msapplication-TileColor" content="#9f00a7">
+  <meta name="msapplication-config" content="/images/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Loopbaan">
+  <meta property="og:image" content="/images/waakster-logo.png">
+  <meta property="og:site_name" content="Waakster">
+  <meta property="og:description" content="Waken is het geven van ruimte">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://localhost:4000/loopbaan">
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" value="summary">
+  <meta name="twitter:title" content="Loopbaan">
+  <meta name="twitter:description" content="Waken is het geven van ruimte">
+  <meta name="twitter:image" content="/images/waakster-logo.png">
+
+  <script src="assets/lib/uswds-0.14.0/js/uswds.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="assets/lib/uswds-0.14.0/css/uswds.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+  <link rel="stylesheet" type="text/css" media="print" href="stylesheets/print.css">
+
+  
+  <style type="text/css">@page { size: landscape; }
+  </style>
+  
+
+  <link rel="canonical" href="http://localhost:4000/loopbaan">
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+</head>
+
+  <body class="layout--default layout--loopbaan">
+    
+
+
+
+
+
+
+    <a class="usa-skipnav no-print" href="#main">Skip to main content</a>
+<header role="banner" class="banner">
+<div class="usa-header usa-header-extended no-print">
+<div class="usa-navbar">
+  <button class="usa-menu-btn">Menu</button>
+  <div class="usa-logo" id="logo">
+    <em class="usa-logo-text">
+      <a href="index.html" accesskey="1" title="Home" aria-label="Home">  <img src="images/waakster.svg" width="72"> Waakster</a>
+    </em>
+  </div>
+</div>
+</div>
+</header>
+<div class="usa-header usa-header-extended no-print sticky">
+<nav role="navigation" class="usa-nav">
+  <div class="usa-nav-inner">
+    <button class="usa-nav-close">
+      <img src="assets/lib/uswds-0.14.0/img/close.svg" alt="close">
+    </button>
+    <ul class="usa-nav-primary usa-accordion">
+      <li>
+        <a href="index.html" accesskey="1" title="Basis" aria-label="Basis">
+          <span>Basis</span>
+        </a>
+      </li>
+      <li>
+        <a href="praktijk.html" accesskey="3" title="Praktijk" aria-label="Praktijk">
+          <span>Praktijk</span>
+        </a>
+      </li>
+      <li>
+        <a href="agenda.html" accesskey="4" title="Agenda" aria-label="Agenda">
+          <span>Agenda</span>
+        </a>
+      </li>
+      <li>
+        <a href="avg.html" accesskey="6" title="AVG" aria-label="AVG">
+          <span>AVG</span>
+        </a>
+      </li>
+      <li>
+        <a href="tarieven.html" accesskey="5" title="Tarieven" aria-label="Tarieven">
+          <span>Tarieven</span>
+        </a>
+      </li>
+      <li>
+        <a href="wie.html" accesskey="7" title="Wie" aria-label="Wie">
+          <span>Wie</span>
+        </a>
+      </li>
+      <li>
+         <a href="contact/index.html" accesskey="8" title="contact" aria-label="Contact">
+          <span>Contact</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+
     <main id="main" role="main">
       <section class="category category--intro usa-section no-print" id="intro">
         <article>
@@ -28,14 +140,14 @@ title: Loopbaan
             <article class="method" itemscope itemtype="http://schema.org/Article">
               <div class="method--panel method--panel--front">
                 <h1 class="method--title" itemprop="headline">Loopbaan</h1>
-                <img src="{{site.baseurl}}/images/speld-wet-ziekenverzorging-transparant.png" alt="Speld Wet ziekenverzorging" width="250"/>
-                <p>Eigenlijk blijf ik mijn hele leven leren en zegt mijn loopbaan weining over wie ik nu ben. Omdat ik het zelf wel fijn vind om toch een idee te hebben van de ervaring van iemand voor ik overweeg contact op te nemen geef ik hier <a href="/overzicht">een globaal overzicht van mijn werk</a> in de humane gezondheidszorg.</p>
+                <img src="images/speld-wet-ziekenverzorging-transparant.png" alt="Speld Wet ziekenverzorging" width="250">
+                <p>Eigenlijk blijf ik mijn hele leven leren en zegt mijn loopbaan weining over wie ik nu ben. Omdat ik het zelf wel fijn vind om toch een idee te hebben van de ervaring van iemand voor ik overweeg contact op te nemen geef ik hier <a href="overzicht.html">een globaal overzicht van mijn werk</a> in de humane gezondheidszorg.</p>
                 <p>Vanaf mijn jeugd heb ik mij als vrijwilliger ingezet rond veterinaire zorg. Sinds 2005 volg ik cursussen in die richting.</p>
                 <p>In 2010 volgde ik bij Michelle Vrolijk, hondengedragsdeskundige, de eerste workshop 'door de ogen van de hond'. Een intensieve stageperiode volgde. </p>
                 <p>Vanaf 2018 assisteer ik bij de <a href="http://www.michellevrolijk.nl/opleiding-pijn-bij-honden.html">Opleidingen pijn bij honden</a>. </p>
               </div>
               <div class="method--panel method--panel--back">
-                <img style="float: right;" src="{{site.baseurl}}/images/logo-les-gaillards.jpg" alt="Logo Les Gaillards" width="125"/>
+                <img style="float: right;" src="images/logo-les-gaillards.jpg" alt="Logo Les Gaillards" width="125">
                 <h2>Les Gaillards</h2>
                 <p>Sinds 1997 voel ik mij betrokken bij Les Gaillards waar ik verschillende malen in training ben geweest. Later volgden bijzondere modules. Vervolgens groeide een samenwerkingsverband.</p>
                 <p>Hieruit is een warme vriendschap onstaan met Aristos Bouïus en Gerrit Schelling, de buitengewone initiatiefnemers.</p>
@@ -46,11 +158,20 @@ title: Loopbaan
 
                 <p>(-: Blijf JeZelf :-) </p>
               </div>
-            </div>
             </article>
-        </div>
+</div>
+            
+        
       </section>
     </main>
-      {% include footer.html %}
+      <div class="usa-overlay"></div>
+<footer class="site-footer no-print">
+    <div class="usa-grid">
+        <p>Meer weten? <a href="contact/index.html">Neem contact op</a>. <br>Een vrijblijvende kennismaking is vanzelfsprekend</p>
+    </div>
+</footer>
+
+
+
   </body>
 </html>

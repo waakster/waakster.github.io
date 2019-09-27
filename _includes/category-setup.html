@@ -1,6 +1,0 @@
-{% assign praktijkinfo_methods = (site.methods | where: "category", "Praktijkinfo" ) %}
-{% assign category_methods     = (site.methods | where: "category", page.title ) %}
-{% assign all_methods          = (site.methods) %}
-
-<! -- This is used for setting category variables -->
-{% capture var-category-name %}{{ page.category | downcase }}_methods{% endcapture %}
